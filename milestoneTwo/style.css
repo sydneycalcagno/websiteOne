@@ -65,26 +65,26 @@ body{
     right: 0; 
     z-index: -1;
 }
-.progOneBlurb {
+.blogBlurb {
     margin-left: 40px;
 }
-.progOneBlurb p{
+.blogBlurb p{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
-.progOneBlurb li{
+.blogBlurb li{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
-.progOneTitle{
+.blogTitle{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
-.progOnebox{
+.blogBox{
     align-items: center;
     justify-content: center;
     display: flex;

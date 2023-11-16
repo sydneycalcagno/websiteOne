@@ -23,6 +23,62 @@
 
     <div class="blogBox">
         <div class="progOneBlurb">
+            <h1 class="blogTitle">Assignment 6 - REACT</h1>
+            <div>
+                <h4>Step 1</h4>
+                <ul>
+                    <li>FilterableAssignmentTable</li>
+                    <ul>
+                        <li>SearchBar</li>
+                        <li>AssignmentTable</li>
+                        <ul>
+                            <li>AssignmentCategoryRow</li>
+                            <li>AssignmentRow</li>
+                        </ul>
+                    </ul>
+                </ul>
+                <p>FilterableAssignmentTable is the parent, in other words the entire thing.
+                    The AssignmentTable is a sub of the entire program where it contains all
+                    the information about the assignments, while the SearchBar is not a part
+                    of the AssignmentTable. The SearchBar will be used to look up a specific
+                    assignment. AssignmentCategoryRow splits between the Homeworks and 
+                    Projects, and properly shows/contains the respected assignment. 
+                    AssignmentRow will have the assignment and have a date assigned to it. 
+                    The AssignmentRow will have assignments, if the assignment is green, then 
+                    it is completed, if it’s black it needs to be done. 
+                </p>
+            </div>
+            <div>
+                <h4>Step 3 and 4</h4>
+                <ul>
+                    <p>Pieces of Data</p>
+                    <li>All of the assignments</li>
+                    <li>CheckBox for uncompleted assignments</li>
+                    <li>Search box for the assignment</li>
+                    <li>Assignment Labels/Category</li>
+                </ul>
+                <p> Assignments state of homework or project and state of completion.
+                    AssignmentCategoryRow takes information from Assignment hw or project
+                    state, so not a state.
+                </p>
+                <ul>
+                    <p>Where States Are Being Used</p>
+                    <li>The checkbox is dependent on the completion state.</li>
+                    <li>The color of the assignment is dependent on the completion state.</li>
+                    <li>The AssignmentCategoryRow is dependent on the state of hw or project.</li>
+                </ul>
+                <p>States are the Checkbox (it changes based on completion) and AssignmentRow (changes colors).</p>
+                <p>The rest of the components aren’t states, they are props (FilterableAssignmentTable, SearchBar, AssignmentTable).</p>
+            </div>
+            <div>
+                <h4>Wireframe</h4>
+                <object data="ReactList.pdf" type="application/pdf" width="100%" height="600px"></object>
+            </div>
+        </div>
+    </div>
+
+    <div class="blogBox">
+        <div class="progOneBlurb">
             <h1 class="blogTitle">Project 2 - Milestone 1</h1>
             <div>
                 <h3>Description</h3>

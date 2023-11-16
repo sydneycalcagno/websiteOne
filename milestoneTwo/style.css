@@ -1,8 +1,10 @@
+
 body{
     justify-content: center; 
     align-items: center; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(35, 137, 68);
+
 }
 #navbar {
     overflow: hidden;
